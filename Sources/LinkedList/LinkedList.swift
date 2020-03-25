@@ -44,6 +44,8 @@ public class LinkedList<Element> {
         tail
     }
 
+    public init() { }
+
     /// Adds a new element at the end of the list.
     ///
     /// - Parameter newElement: The element to append to the list.
