@@ -3,7 +3,7 @@ import UIKit
 
 public class LinkedList<Element> {
     public class Node {
-        let element: Element
+        public let element: Element
 
         fileprivate var next: Node?
         fileprivate var previous: Node?
