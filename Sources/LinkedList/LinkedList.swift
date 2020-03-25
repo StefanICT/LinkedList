@@ -1,8 +1,7 @@
 import Foundation
 import UIKit
 
-/// Double linked list
-class LinkedList<Element> {
+public class LinkedList<Element> {
     class Node {
         let element: Element
 
