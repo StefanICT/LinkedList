@@ -2,7 +2,7 @@ import Foundation
 import UIKit
 
 public class LinkedList<Element> {
-    class Node {
+    public class Node {
         let element: Element
 
         fileprivate var next: Node?
